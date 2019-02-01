@@ -1,0 +1,312 @@
+body
+{
+	overflow-x: hidden; 
+}
+#up
+{
+	background-color:hsl(240,100%,65%);
+	width: 101.5%;
+	height: 80px; 
+	position: absolute;
+	left: -10px;
+	top: -1px;
+}
+#logo
+{
+	width: 150px;
+	height: 65px;
+	position: absolute;
+	top: 10px;
+	left: -1px;
+}
+#dp
+{
+	background-color:hsl(240,100%,65%);
+	width: 101.5%;
+	height: 15%; 
+	position: absolute;
+	top: 254%; 
+	left: -1%;
+}
+#Faind
+{
+	background-color:hsl(0,110%,110%);
+	width: 40%;
+	height: 40px; 
+	position: absolute;
+	left: 200px;
+	top:30px; 
+	border-radius: 10px;
+}
+#poisk
+{
+	width: 100%;
+	height:34px;
+	border-radius: 10px;
+}
+#lupa
+{
+	width: 15%;
+	height: 34px;
+	border-radius: 10px;
+	position: absolute;
+	left: 85%;
+	top:4px;
+}
+#enter
+{
+	width: 25%;
+	height: 34px;
+	position: absolute;
+	left: 130%;
+	top:1px;
+	background-color: yellow;
+
+}
+#Mainpikturs
+{
+	width: 113%;
+	height: 35%;
+	position: absolute;
+	top: 16%;
+	left: -2px;
+}
+#Mainfaind
+{
+	background-color:hsl(0,110%,110%);
+	width: 70%;
+	height: 60px; 
+	position: absolute;
+	left: 2%;
+	top:30%; 
+	border-radius: 10px;
+}
+#Mainfaindtt
+{
+	width: 100%;
+	height:53px;
+	border-radius: 10px;
+}
+#Mainenter
+{
+	background-color: green;
+	width: 30%;
+	height:60px;
+	border-radius: 10px;
+	position: absolute;
+	left: 102%;
+	top: 0%;
+}
+#pikturs
+{
+	width: 36%;
+	height:49.5%;
+	position: absolute;
+	top: 100%;
+}
+#updivide
+{
+	background-color:hsl(0,0%,62%); 
+	width: 60%;
+	height: 0.1%;
+	position: absolute;
+	top: 100%;
+	left:38%;
+}
+#dwdivide
+{
+	background-color:hsl(0,0%,62%); 
+	width: 60%;
+	height: 0.1%;
+	position: absolute;
+	top: 149.5%;
+	left:38%;
+}
+#programmer
+{
+	width: 20%;
+	position: absolute;
+	top: 151%;
+	left: 3%;
+}
+#photographers
+{
+	width: 20%;
+	position: absolute;
+	top: 151%;
+	left: 52%;
+}
+#management
+{
+	width: 20%;
+	position: absolute;
+	top: 151%;
+	left: 28%;
+}
+#copywriter
+{
+	width: 20%;
+	position: absolute;
+	top: 151%;
+	left: 76%;
+}
+#designer
+{
+	width: 20%;
+	position: absolute;
+	top: 191%;
+	left: 28%;
+}
+#business
+{
+	width: 20%;
+	position: absolute;
+	top: 191%;
+	left: 52%;
+}
+#piska
+{
+	position: absolute;
+	height: 27%;
+	width: 100%;
+	top: 226%;
+	left:0%;
+}
+#jopa
+{
+	position: absolute;
+	height: 10%;
+	width: 61%;
+	top: 102%;
+	left: 37.5%;
+}
+#xyi
+{
+	position: absolute;
+	height: 10%;
+	width: 61%;
+	top: 113%;
+	left: 37.5%;
+}
+#gay
+{
+	position: absolute;
+	height: 10%;
+	width: 61%;
+	top: 124%;
+	left: 37.5%;
+}
+#pidoras
+{
+	position: absolute;
+	height: 10%;
+	width: 61%;
+	top: 135%;
+	left: 37.5%;
+}
+#vk
+{
+	width: 4%;
+	height:8%;
+	position: absolute;
+	top: 259%;
+	left: 68%;
+}
+#instogram
+{
+	width: 4%;
+	height:8%;
+	position: absolute;
+	top: 259%;
+	left: 73%;
+}
+#tvetr
+{
+	width: 4%;
+	height:8%;
+	position: absolute;
+	top: 259%;
+	left: 77.5%;
+}
+#youtub
+{
+	width: 4%;
+	height:8%;
+	position: absolute;
+	top: 259%;
+	left: 82%;
+}
+#facebook
+{
+	width: 4%;
+	height:8%;
+	position: absolute;
+	top: 259%;
+	left: 86.5%;
+}
+#SettingAvotar
+{
+	width: 30px;
+	height: 30px;
+	background-color: #ffa500;
+	opacity: 0.9;
+	position: absolute;
+	top: 4%;
+	left: 86%;
+	border-radius: 50%;
+    border: 3px solid #ffa500;
+}
+.hidden-menu {
+  display: block;
+  position: fixed;
+  list-style:none;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  width: 200px;
+  background-color: #eee;
+  height: 100%;
+  top: 0;
+  left: -200px;
+  transition: left .2s;
+  z-index: 2;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+.hidden-menu-ticker {
+  display: none;
+}
+btn-menu {
+  color: #fff;
+  background-color: #666;
+  padding: 5px;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+  transition: left .23s;
+  z-index: 3;
+  width: 25px;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+.btn-menu span {
+  display: block;
+  width: 20px;
+  height:2px;
+  background-color: #fff;
+  margin: 5px 0 0;
+  transition: all .1s linear .23s;
+  position: absolute;
+  top: 6%;
+  left: 86.6%;
+}
+.btn-menu span.first {
+  margin-top: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu {
+  left: 160px;
+}
+.hidden-menu-ticker:checked ~ .hidden-menu {
+  left: 0;
+}
